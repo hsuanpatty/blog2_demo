@@ -416,6 +416,10 @@ body{
     .hero-subtitle{
         font-size: 14px;
     }
+
+    .article-head{
+        margin-bottom:15px;
+    }   
 }
 
 /* ===== 前導卡片 ===== */
