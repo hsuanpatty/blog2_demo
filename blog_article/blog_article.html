@@ -741,7 +741,7 @@
       // fb連結
       var fbhtml_url = window.location.toString();
 
-      // 表單處理 (ASP.NET 原生)
+      // 表單處理
       var theForm = document.forms["form1"];
       if (!theForm) {
         theForm = document.form1;
@@ -754,7 +754,7 @@
         }
       }
 
-      // 平滑滾動邏輯 (你剛才新加的)
+      // 平滑滾動邏輯
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", function (e) {
           const targetId = this.getAttribute("href");
